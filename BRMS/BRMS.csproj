@@ -576,6 +576,7 @@
     <Content Include="Views\Movies\New.cshtml" />
     <Content Include="Views\Movies\List.cshtml" />
     <Content Include="Views\Rentals\New.cshtml" />
+    <Content Include="Views\Rentals\returnMovie.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

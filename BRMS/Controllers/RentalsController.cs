@@ -13,5 +13,12 @@ namespace BRMS.Controllers
         {
             return View();
         }
+
+
+        public ActionResult returnMovie()
+        {
+            return View();
+        }
+
     }
 }

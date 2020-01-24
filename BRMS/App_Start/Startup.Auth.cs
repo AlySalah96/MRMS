@@ -54,9 +54,9 @@ namespace BRMS
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            app.UseFacebookAuthentication(
-               appId: "814482789068291",
-              appSecret: "ea9784a34249a2ad83e2f25ec9687067");
+            //app.UseFacebookAuthentication(
+              // appId: "",
+             // appSecret: "");
 
             //ea9784a34249a2ad83e2f25ec9687067
 
