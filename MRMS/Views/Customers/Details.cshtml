@@ -1,0 +1,18 @@
+﻿
+@model MRMS.Models.Customer
+    
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2> @Model.Name</h2>
+
+<ul>
+      <li>@Model.MembershipType.Name</li>
+@if (!Model.Birthdate.Equals(null))
+{
+      <li>@Model.Birthdate</li>
+}
+
+ </ul>
